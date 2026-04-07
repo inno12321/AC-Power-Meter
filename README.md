@@ -150,4 +150,4 @@ Things I'd change in the next revision:
 
 Shared for reference and learning purposes.
 
-Licensed under [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/) — you may view and share with attribution. Not licensed for fabrication, modification, or commercial use.# AC-Power-Meter
+Licensed under [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/) — you may view and share with attribution. Not licensed for fabrication, modification, or commercial use.
