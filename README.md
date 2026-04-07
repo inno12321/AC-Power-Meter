@@ -52,7 +52,7 @@ The [ACS37800](https://www.allegromicro.com/en/products/sense/current-sensor-ics
 
 ## Circuit
 
-![Schematic](Schematic/Power Meter.svg)
+![Schematic](Schematic/Power_Meter.svg)
 
 ---
 
