@@ -2,8 +2,8 @@
 
 A compact AC power measurement module built around the Allegro ACS37800. Originally designed to add per-channel metering to a PDU build — ended up being general enough to document separately.
 
-![3D Render Front](images/render_1.png)
-![3D Render Top](images/render_2.png)
+![3D Render Front](images/Render_1.png)
+![3D Render Top](images/Render_2.png)
 
 ---
 
