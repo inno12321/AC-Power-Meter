@@ -50,29 +50,9 @@ The [ACS37800](https://www.allegromicro.com/en/products/sense/current-sensor-ics
 
 ---
 
-## Architecture
+## Circuit
 
-```
-AC LINE IN ──────────────────────────────────────────────────────┐
-                                                                  │
-              ┌──────────────────────────────────────────────────┼──────┐
-              │  Resistor Divider                                │      │
-              │  R1+R2 (LINE)    = 2MΩ                          │      │
-              │  R3+R4 (NEUTRAL) = 2MΩ   → VINP/VINN           │      │
-              │  R5 = 3kΩ (termination)                          │      │
-              │                                                   │      │
-              │  ┌─────────────────────────────────────────┐     │      │
-              │  │  ACS37800KMACTR-030B5-SPI               │     │      │
-              │  │  Hall-effect current sensing (H1/H2) ◄──┼─────┘      │
-              │  │  On-chip: Vrms, Irms, P_real, P_app     │            │
-              │  │  SPI output → CS, SCLK, MOSI, MISO      │            │
-              │  └─────────────────────────────────────────┘            │
-              │                                                           │
-              │  24V IN → AS7805AT-E1 → 5V                              │
-              │  Bulk decoupling: 2× 47µF + 0.1µF                       │
-              │                                                           │
-AC LINE OUT ──────────────────────────────────────────────────────────────
-```
+![Schematic](Schematic/Power Meter.svg)
 
 ---
 
